@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    height: 100vh;
+    flex-direction: column;
+}
+.username{
+    height: 60px;
+    width: 600px;
+    font-size: 20px;
+    margin: 10px;
+}
+.img{
+    margin: 50px;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-self:center ;
+}
+.cap{
+    height: 60px;
+    width: 600px;
+    font-size: 20px;
+}

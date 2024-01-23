@@ -1,0 +1,89 @@
+*{
+    background-color: white;
+    margin-top: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.wrapper{
+    height: fit-content;
+    width: 40vw;
+    border: 2px solid black;
+    
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-top: 100px;
+}
+.username{
+    font-size: 50px;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar button{
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color:bisque;
+    opacity: 0.9;
+    height: 30px;
+    border-radius: 20px;
+
+}
+p{
+    font-size: 30px;
+}
+
+.profile{
+    position:fixed;
+    left: 1000px ;
+    /* background-color: black; */
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.head{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.head img{
+    border-radius: 50%;
+}
+.head p{
+    font-size: 20px;
+}
+
+.profile button{
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color:bisque;
+    opacity: 0.9;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+.heart{
+    cursor:pointer;
+}

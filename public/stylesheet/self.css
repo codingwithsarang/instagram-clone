@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    height: fit-content;
+    width: 30vw;
+}
+
+button{
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color:brown;
+    opacity: 0.9;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+.allposts{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

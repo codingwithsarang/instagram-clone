@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Posts</title>
+    <link rel="stylesheet" href="./stylesheet/self.css">
+</head>
+<body>
+    <h1>Your Posts</h1>
+    <div  class="allposts">
+        <%  for(i=selfPosts.length - 1 ;i>-1;i--){%>
+            <div class="posts">
+                <h2>@<%= selfPosts[i].username %></h2>
+                <img src="<%= selfPosts[i].img %>" height="300px" alt="">
+                <h3><%= selfPosts[i].caption %></h3>
+            </div>
+        <%  }%>
+    </div>
+    
+    <a href="/"><button>back</button></a>
+</body>
+</html>
